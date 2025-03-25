@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Take bath",
+        "time": 1,
+        "dependencies": [
+            "Soap",
+            " water",
+            " scrunch"
+        ],
+        "assignee": "Wenzile",
+        "startTime": "2025-03-25T23:11",
+        "endTime": "2025-03-25T12:11"
+    }
+]
