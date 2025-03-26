@@ -8,8 +8,8 @@ Organize effortlessly, achieve flawlessly with FlowOpt!
 # Labelled Button
 
 Frontend:
-https://nomcebolmncina.github.io/FlowOpt/
 
+[![Open App](https://img.shields.io/badge/Launch_App-00C7B7?style=for-the-badge)]([https://nomcebolmncina.github.io/FlowOpt/])
 Backend:
 
 
