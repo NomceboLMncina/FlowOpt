@@ -22,8 +22,11 @@ Workflow Visualization: Workflow efficiency is represented in visualization grap
 Tasks are listed at the bottom, with a feature of enabling reminders from 24hrs before due date for longer projects, and an hour reminder for daily short projects. 
 
 This is a solo Project by Nomcebo Lunga Mncina
+
 LinkedIn: https://sz.linkedin.com/in/nomcebo-mncina-bb6265306
+
 Github: https://github.com/NomceboLMncina
+
 Twitter: https://x.com/mcebo_lu
 
 Github Repository: https://github.com/NomceboLMncina/FlowOpt
