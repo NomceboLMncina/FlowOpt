@@ -17,6 +17,8 @@ Backend:
 
 This project was inspired by my background in industrial engineering, where efficient workflow management is crucial for productivity. Recognizing the need for a customizable in-house solution, I wanted to develop an application that could adapt to our specific operational requirements. FlowOpt was born from the vision of creating a flexible tool that simplifies time management, enhances task delegation, and evolves alongside our workplace needs—eliminating the limitations of off-the-shelf software. By integrating features like workflow visualization and real-time task tracking, the app empowers teams to optimize processes dynamically, bridging the gap between industrial engineering principles and practical, day-to-day execution.
 
+This project was made within the time frame of February to March 2025. Improvements are set to be done early April.
+
 # 3 Key Features
 ![SC1](https://github.com/user-attachments/assets/5c4c1ec9-1981-4cb9-9fd4-cb97d42b4ee4)
 
