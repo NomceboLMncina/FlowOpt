@@ -7,6 +7,11 @@ Organize effortlessly, achieve flawlessly with FlowOpt!
 - Logout icon to exit certain accountback to login page.\
 # Labelled Button
 
+Frontend:
+
+Backend:
+
+
 # 3 Key Features
 ![SC1](https://github.com/user-attachments/assets/5c4c1ec9-1981-4cb9-9fd4-cb97d42b4ee4)
 
