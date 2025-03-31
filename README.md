@@ -31,7 +31,86 @@ Add Tasks: Here it is clear exactly how a user is supposed to enter their prefer
 ![SC3](https://github.com/user-attachments/assets/0797958e-acf0-4884-ac36-0beca8743264)
 
 Workflow Visualization: Workflow efficiency is represented in visualization graph so as to easily make analysis of proper time management whilst doing taks. 
-Tasks are listed at the bottom, with a feature of enabling reminders from 24hrs before due date for longer projects, and an hour reminder for daily short projects. 
+Tasks are listed at the bottom, with a feature of enabling reminders from 24hrs before due date for longer projects, and an hour reminder for daily short projects.
+
+🛠 Installation
+
+### Prerequisites
+- Python 3.8+
+- SQLite (included with Python)
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/flowopt.git
+   cd flowopt
+   ```
+
+2. Create and activate virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate     # Windows
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Initialize database:
+   ```bash
+   python init_db.py
+   ```
+
+5. Run the application:
+   ```bash
+   python app.py
+   ```
+   Access at: `http://localhost:5000`
+
+## 🚀 Usage
+
+1. **Account Setup**:
+   - Register team members via `/signup`
+   - Assign roles through the admin panel (future feature)
+
+2. **Task Workflow**:
+   ```mermaid
+   graph LR
+   A[Add Task] --> B[Assign Time/Dependencies]
+   B --> C[Delegate to Team]
+   C --> D[Track Progress]
+   ```
+
+3. **Key Shortcuts**:
+   - `Ctrl+Shift+N`: Quick-add task (customize in settings)
+   - Export data as JSON/CSV from Settings
+
+## 🤝 Contributing
+
+We welcome adaptations for industrial engineering applications! To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/improvement`)
+3. Commit changes (`git commit -m 'Add new feature'`)
+4. Push to branch (`git push origin feature/improvement`)
+5. Open a Pull Request
+
+**Suggested Improvements**:
+- Gantt chart integration
+- Equipment resource scheduling
+- OEE (Overall Equipment Effectiveness) tracking module
+
+## 🔗 Related Projects
+
+- [ProcessOptimizer](https://github.com/industrial-eng/process-optimizer) - Bottleneck analysis toolkit
+- [TimeStudyPro](https://github.com/ie-tools/timestudy) - Industrial time-motion study app
+- [LeanFlow](https://github.com/lean-manufacturing/leanflow) - Kanban board for manufacturing
+
+## 📜 Licensing
+
+Distributed under the **MIT License**. See `LICENSE.md` for details.
 
 This is a solo Project by Nomcebo Lunga Mncina
 
